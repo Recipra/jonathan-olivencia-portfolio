@@ -1,12 +1,15 @@
 import styles from './Landing.module.css'
+import Home from '../../components/Home/Home'
+import Contact from '../../components/Contact/Contact'
+import Projects from '../../components/Projects/Projects'
 
 const Landing = ({ homeVisible, contactVisible, projectsVisible}) => {
   return (
     <>
       <div className={styles.pageContainer}>
-        {homeVisible && <h2>this is the home page</h2>}
-        {contactVisible && <h2>this is the contact page</h2>}
-        {projectsVisible && <h2>this is the project page</h2>}
+        {homeVisible && <Home />}
+        {contactVisible && <Contact />}
+        {projectsVisible && <Projects />}
       </div>
     </>
   );
