@@ -1,9 +1,15 @@
 import styles from './NavBar.module.css'
 
-const NavBar = () => {
+const NavBar = ({ handleHomeClick, handleContactClick, handleProjectsClick }) => {
   return (
     <>
-      <h1>This is the nav bar</h1>
+      <nav>
+        <ul>
+          <li><button onClick={handleHomeClick}>Home</button></li>
+          <li><button onClick={handleContactClick}>Contact Me</button></li>
+          <li><button onClick={handleProjectsClick}>Projects</button></li>
+        </ul>
+      </nav>
     </>
   );
 }
