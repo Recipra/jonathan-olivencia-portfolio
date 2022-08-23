@@ -6,7 +6,7 @@ import Projects from '../../components/Projects/Projects'
 const Landing = ({ homeVisible, contactVisible, projectsVisible}) => {
   return (
     <>
-      <div className={styles.pageContainer}>
+      <div className={styles.landingContainer}>
         {homeVisible && <Home />}
         {contactVisible && <Contact />}
         {projectsVisible && <Projects />}

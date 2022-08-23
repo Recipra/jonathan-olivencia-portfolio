@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import NavBar from './components/NavBar/NavBar'
 import Landing from './pages/Landing/Landing'
+import './App.css'
 
 const App = () => {
   const [homeVisible, setHomeVisible] = useState(true)
