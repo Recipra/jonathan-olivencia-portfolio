@@ -1,3 +1,20 @@
+h1 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+p {
+  font-size: large;
+}
+
+.athenaContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .athena {
   height: 40vh;
+  filter: brightness(70%);
+  border: solid rgba(0, 0, 0, 0.4) 2px;
+  border-radius: 5px;
 }

@@ -29,10 +29,10 @@ const App = () => {
 
   return (
     <>
-      <NavBar handleHomeClick={handleHomeClick} handleContactClick={handleContactClick} handleProjectsClick={handleProjectsClick} />
       <Routes>
         <Route path='/' element={<Landing homeVisible={homeVisible} contactVisible={contactVisible} projectsVisible={projectsVisible} />} />
       </Routes>
+      <NavBar handleHomeClick={handleHomeClick} handleContactClick={handleContactClick} handleProjectsClick={handleProjectsClick} />
     </>
   )
 }

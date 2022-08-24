@@ -14,5 +14,6 @@ body {
 }
 
 #root {
+  height: 95vh;
   padding: 10px;
 }
