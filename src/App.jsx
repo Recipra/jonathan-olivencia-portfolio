@@ -6,8 +6,8 @@ import './App.css'
 
 const App = () => {
   const [homeVisible, setHomeVisible] = useState(false)
-  const [contactVisible, setContactVisible] = useState(true)
-  const [projectsVisible, setProjectsVisible] = useState(false)
+  const [contactVisible, setContactVisible] = useState(false)
+  const [projectsVisible, setProjectsVisible] = useState(true)
 
   const handleHomeClick = async () => {
     setHomeVisible(true)

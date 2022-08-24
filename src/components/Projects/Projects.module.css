@@ -1,0 +1,11 @@
+.cardContainer {
+  height: 70vh;
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

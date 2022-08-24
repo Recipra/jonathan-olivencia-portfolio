@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  padding: 3px;
+}
+
+.projectImage {
+  filter: brightness(80%);
+  height: 75%;
+  border: solid rgba(0, 0, 0, 0.4) 2px;
+  border-radius: 5px;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 15%;
+}
+
+.projectName {
+  margin: 10px 0 15px 0;
+}
+
+.projectLinks {
+  display: inherit;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  height: 10%;
+}
+
+.projectLinks > h4 > a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.projectLinks > h4 > a:hover {
+  color: rgba(245, 245, 245, 0.6);
+  background-color: rgba(10, 10, 10, 0.2);
+}
