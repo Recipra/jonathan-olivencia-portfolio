@@ -5,9 +5,9 @@ import Landing from './pages/Landing/Landing'
 import './App.css'
 
 const App = () => {
-  const [homeVisible, setHomeVisible] = useState(false)
+  const [homeVisible, setHomeVisible] = useState(true)
   const [contactVisible, setContactVisible] = useState(false)
-  const [projectsVisible, setProjectsVisible] = useState(true)
+  const [projectsVisible, setProjectsVisible] = useState(false)
 
   const handleHomeClick = async () => {
     setHomeVisible(true)
