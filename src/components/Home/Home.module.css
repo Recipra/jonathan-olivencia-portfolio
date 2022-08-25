@@ -2,6 +2,11 @@
   height: 100%;
 }
 
+h3 {
+  font-size: 21px;
+  margin: 10px 0;
+}
+
 .pfpContainer {
   display: flex;
   justify-content: center;
