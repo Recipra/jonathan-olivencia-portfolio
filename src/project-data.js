@@ -5,10 +5,10 @@ import Stranded from './assets/stranded-cropped.png'
 
 export const projects = [
   {
-    name: 'Tic Tac Toe',
-    live: 'https://jonathan-olivencia-ga-tic-tac-toe-game.netlify.app/',
-    github: 'https://github.com/Recipra/ttt-weekend.git',
-    image: TicTacToe
+    name: 'Stranded',
+    live: 'https://stranded-ga.herokuapp.com/',
+    github: 'https://github.com/Recipra/stranded.git',
+    image: Stranded
   },
   {
     name: 'Sportify',
@@ -23,9 +23,9 @@ export const projects = [
     image: CHEERS
   },
   {
-    name: 'Stranded',
-    live: 'https://stranded-ga.herokuapp.com/',
-    github: 'https://github.com/Recipra/stranded.git',
-    image: Stranded
+    name: 'Tic Tac Toe',
+    live: 'https://jonathan-olivencia-ga-tic-tac-toe-game.netlify.app/',
+    github: 'https://github.com/Recipra/ttt-weekend.git',
+    image: TicTacToe
   }
 ]
