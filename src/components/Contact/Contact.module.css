@@ -27,3 +27,15 @@ h2 {
 .icons:hover {
   color: rgba(245, 245, 245, 0.4);
 }
+
+@media only screen and (min-width: 768px) {
+
+  h2 {
+    font-size: xx-large;
+  }
+
+  .icons {
+    height: 9em;
+    width: 9em;
+  }
+}

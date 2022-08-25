@@ -16,7 +16,7 @@ ul {
 
 button {
   font-family: inherit;
-  font-size: larger;
+  font-size: 20px;
   font-weight: 600;
   background-color: transparent;
   border: none;
@@ -34,6 +34,7 @@ button:hover {
 .resumeLink {
   text-align: center;
   margin: 10px 0 0 0;
+  font-size: 20px;
 }
 
 .resumeLink > a {

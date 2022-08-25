@@ -22,7 +22,7 @@
 }
 
 .projectName {
-  margin: 10px 0 15px 0;
+  margin: 15px 0 20px 0;
 }
 
 .projectLinks {
@@ -45,4 +45,11 @@
 .projectLinks > h4 > a:hover {
   color: rgba(10, 10, 10, 0.6);
   background-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .card {
+    height: 80%;
+  }
 }

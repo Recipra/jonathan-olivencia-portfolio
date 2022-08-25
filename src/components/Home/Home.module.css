@@ -20,3 +20,26 @@ h3 {
   border: solid rgba(0, 0, 0, 0.4) 2px;
   border-radius: 5px;
 }
+
+.coolerPfp {
+  display: none;
+}
+
+@media only screen and (min-width: 786px) {
+  
+  h3 {
+    font-size: x-large;
+  }
+  
+  .pfp {
+    display: none;
+  }
+  
+  .coolerPfp {
+    display: block;
+    height: 60vh;
+    filter: brightness(70%);
+    border: solid rgba(0, 0, 0, 0.4) 2px;
+    border-radius: 5px;
+  }
+}
