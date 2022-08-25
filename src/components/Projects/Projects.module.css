@@ -1,8 +1,11 @@
 .contentContainer {
-  height: 80%;
+  height: 100%;
 }
 
 .cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
   height: 65vh;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -28,5 +31,13 @@
     flex-wrap: wrap;
     gap: 3em;
     width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .cardContainer {
+    gap: 4em;
+    width: 70%;
   }
 }

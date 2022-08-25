@@ -39,3 +39,16 @@ h2 {
     width: 9em;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+
+  .iconContainer {
+    flex-direction: row;
+    gap: 10em;
+  }
+
+  .icons {
+    height: 12em;
+    width: 12em;
+  }
+}

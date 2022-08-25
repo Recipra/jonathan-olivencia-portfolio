@@ -49,3 +49,19 @@ button:hover {
   color: rgba(10, 10, 10, 0.6);
   background-color: transparent;
 }
+
+@media only screen and (min-width: 1024px) {
+
+  ul {
+    gap: 4em;
+  }
+
+  button {
+    font-size: 24px;
+  }
+
+  .resumeLink {
+    margin: 20px 0 0 0;
+    font-size: 24px;
+  }
+}
