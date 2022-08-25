@@ -5,11 +5,13 @@ import ProjectCard from './ProjectCard'
 const Projects = () => {
   return (
     <>
-      <h1>Projects</h1>
-      <div className={styles.cardContainer}>
-        {projects.map((project, idx) =>
-          <ProjectCard project={project} key={idx} />
-        )}
+      <div className={styles.contentContainer}>
+        <h2>Projects</h2>
+        <div className={styles.cardContainer}>
+          {projects.map((project, idx) =>
+            <ProjectCard project={project} key={idx} />
+          )}
+        </div>
       </div>
     </>
   );
