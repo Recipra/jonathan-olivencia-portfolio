@@ -22,26 +22,29 @@ button {
   border: none;
   border-radius: 10px;
   padding: 5px;
-}
-
-button:hover {
   color: rgba(245, 245, 245, 0.6);
   background-color: rgba(10, 10, 10, 0.2);
 }
 
+button:hover {
+  color: rgba(10, 10, 10, 0.6);
+  background-color: transparent;
+}
+
 .resumeLink {
   text-align: center;
-  margin: 5px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .resumeLink > a {
+  color: rgba(245, 245, 245, 0.6);
+  background-color: rgba(10, 10, 10, 0.2);
   text-decoration: none;
-  color: black;
   padding: 5px;
   border-radius: 10px;
 }
 
 .resumeLink > a:hover {
-  color: rgba(245, 245, 245, 0.6);
-  background-color: rgba(10, 10, 10, 0.2);
+  color: rgba(10, 10, 10, 0.6);
+  background-color: transparent;
 }
