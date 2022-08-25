@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <h2>About Me</h2>
-      <p>I'm a 22 year-old college graduate in General Studies. Having always had an interest in coding, I was too afraid of failure to dive into it. But I recently took the leap and got through an intense 12-week coding bootcamp, and I can proudly say that I am now a learned software engineer.</p>
+      <p>I'm a 22 year-old college graduate in General Studies. Having always had an interest in coding, I was too afraid of failure to dive into it. But I recently took the leap and graduated General Assembly SEI, and I can proudly say that I am now a learned software engineer.</p>
         <div className={styles.athenaContainer}>
           <img src={Athena} alt="Cute doggy" className={styles.athena}/>
         </div>

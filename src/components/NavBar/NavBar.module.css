@@ -11,6 +11,7 @@ ul {
   gap: 2em;
   list-style: none;
   padding: 0;
+  margin-bottom: 5px;
 }
 
 button {
@@ -24,6 +25,23 @@ button {
 }
 
 button:hover {
+  color: rgba(245, 245, 245, 0.6);
+  background-color: rgba(10, 10, 10, 0.2);
+}
+
+.resumeLink {
+  text-align: center;
+  margin: 5px 0 0 0;
+}
+
+.resumeLink > a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.resumeLink > a:hover {
   color: rgba(245, 245, 245, 0.6);
   background-color: rgba(10, 10, 10, 0.2);
 }
