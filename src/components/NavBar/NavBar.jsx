@@ -1,5 +1,5 @@
 import styles from './NavBar.module.css'
-import Resume from '../../assets/JonathanOlivenciaSoftwareEngineerResume.pdf'
+import Resume from '../../assets/JonathanOlivenciaSoftwareEngineerPortfolioResume.pdf'
 
 const NavBar = ({ handleHomeClick, handleAboutClick, handleContactClick, handleProjectsClick }) => {
   return (
